@@ -1,0 +1,17 @@
+[Colors:View]
+BackgroundNormal=#CAD7E1
+
+[General]
+TerminalApplication=/usr/bin/kitty
+
+[Icons]
+Theme=Nordzy
+
+[KDE]
+widgetStyle=kvantum
+
+[UiSettings]
+ColorScheme=colors
+
+[Wallet]
+Enabled=false

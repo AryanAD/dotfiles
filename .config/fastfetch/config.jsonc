@@ -77,6 +77,12 @@ fastfetch --config hyde/*.jsonc
       "key": "   Battery",
       "keyColor": "cyan"
     },
+    {
+      "type": "poweradapter",
+      "key": "   Power Adapter",
+      "keyColor": "cyan",
+      "format": "{name} ({manufacturer} {model}) - {watts}W"
+    },
     "break",
     {
       "type": "cpu",
@@ -103,9 +109,10 @@ fastfetch --config hyde/*.jsonc
     },
     "break",
     {
-      "type": "player",
+      "type": "media",
       "key": "   Music",
-      "keyColor": "green"
+      "keyColor": "green",
+      "format": " \u001b[38;5;220m{title} by {artist} | \u001b[38;5;159mAlbum: {album}"
     },
     {
       "type": "custom",
